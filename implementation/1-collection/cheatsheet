@@ -1,0 +1,21 @@
+screen -S deb-crawl-N
+cd wasm-type-prediction/data
+source ~/emsdk/emsdk_env.sh
+./sources-compile.py --logfile log-N.txt --shuffle
+
+# Killing a long running process/make file
+# 1. find process ID of hanging worker
+pgrep -af log-<N>.txt
+-> gives PID of worker
+# 2. show tree of subprocesses of worker, with process group id
+pstree -ag <PID worker>
+-> gives PPID of long running/hanging subprocess
+# 2. confirm process group ID of that command with long time (e.g. TIME 5:14)
+ps -f -<PPID>
+# 3. kill process group (process and all children)
+pkill -P <PPID>
+
+# truncating a very long log file
+ls -lh # check who is the offender
+mv emconfigure.stdout emconfigure.stdout.truncated
+truncate -s 10K emconfigure.stdout.truncated
