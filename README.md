@@ -1,1 +1,1 @@
-# wasm-type-prediction-anonymous
+# SnowWhite: Recovering Precise Types from WebAssembly Binaries
