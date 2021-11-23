@@ -1,0 +1,6 @@
+# Ignore the very large dataset files and provide links to a file hoster instead.
+/binaries.7z
+/dataset.7z
+
+# Ignore non-compressed versions of compressed data
+/name-stats.csv

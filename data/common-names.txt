@@ -1,0 +1,239 @@
+size_t
+FILE
+basic_string<char, std::char_traits<char>, std::allocator<char> >
+basic_ostream<char, std::char_traits<char> >
+ios_base
+ostreambuf_iterator<char, std::char_traits<char> >
+va_list
+string
+length_error
+ptrdiff_t
+time_t
+streamsize
+locale
+ssize_t
+basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >
+ostream
+const_reference
+basic_istream<char, std::char_traits<char> >
+const_iterator
+vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > >
+basic_filebuf<char, std::char_traits<char> >
+off_t
+rebind<std::__tree_end_node<std::__tree_node_base<void *> *> >
+basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >
+allocator<char>
+difference_type
+basic_ifstream<char, std::char_traits<char> >
+allocator_type
+basic_ios<char, std::char_traits<char> >
+const_pointer
+iostate
+basic_streambuf<char, std::char_traits<char> >
+sentry
+ctype<char>
+ostream_type
+key_type
+string_type
+openmode
+timeval
+rebind<std::__tree_node_base<void *> >
+basic_stringstream<char, std::char_traits<char>, std::allocator<char> >
+basic_ofstream<char, std::char_traits<char> >
+istream
+iterator_type
+stat
+tm
+pid_t
+streamoff
+vector<int, std::allocator<int> >
+fpos<__mbstate_t>
+sockaddr
+allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >
+iterator
+value_compare
+basic_istringstream<char, std::char_traits<char>, std::allocator<char> >
+Node
+basic_string_view<char, std::char_traits<char> >
+socklen_t
+mode_t
+yy_buffer_state
+YY_BUFFER_STATE
+basic_iostream<char, std::char_traits<char> >
+wchar_t
+less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >
+fmtflags
+yy_size_t
+piecewise_construct_t
+tuple<>
+mbstate_t
+vector<double, std::allocator<double> >
+extern_type
+unique_ptr<_IO_FILE, int (*)(_IO_FILE *)>
+codecvt<char, char, __mbstate_t>
+state_type
+timespec
+allocator<int>
+option
+byte
+pair<const std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >
+regex_t
+gid_t
+set<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > >
+uid_t
+vector<unsigned int, std::allocator<unsigned int> >
+vector<bool, std::allocator<bool> >
+type_info
+tuple<const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &>
+map<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<const std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >
+vector<unsigned long, std::allocator<unsigned long> >
+vector<unsigned char, std::allocator<unsigned char> >
+String
+Byte
+addrinfo
+in_addr
+Token
+basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
+sockaddr_in
+vector<char, std::allocator<char> >
+Parser
+libcerror_error_t
+libcdata_range_list_t
+libcdata_list_t
+libcdata_list_element_t
+libcdata_internal_list_t
+libcdata_internal_list
+libcdata_internal_array_t
+exception
+libcdata_internal_array
+libcdata_btree_t
+libcdata_range_list_value
+libcdata_range_list_value_t
+libcdata_array_t
+libcdata_tree_node_t
+libuna_utf8_character_t
+libuna_utf32_character_t
+libuna_utf16_character_t
+libuna_unicode_character_t
+Value
+re_pattern_buffer
+libcfile_file_t
+Exception
+node
+fd_set
+off64_t
+pthread_mutex_t
+out_of_range
+size64_t
+libbfio_handle_t
+libbfio_file_io_handle
+libbfio_file_range_io_handle_t
+libbfio_internal_pool
+libbfio_internal_pool_t
+Context
+libbfio_memory_range_io_handle
+MD5Context
+libbfio_memory_range_io_handle_t
+list<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > >
+Mutex
+libbfio_file_range_io_handle
+libbfio_file_io_handle_t
+uLong
+system_character_t
+libcsplit_narrow_split_string_t
+libbfio_pool_t
+IPos
+libcthreads_mutex_t
+libcthreads_condition_t
+regmatch_t
+libcthreads_internal_thread_pool
+Mode
+libcthreads_internal_thread_pool_t
+libcthreads_thread_t
+libcthreads_thread_pool_t
+libcthreads_thread_attributes_t
+libcthreads_repeating_thread_t
+libcthreads_read_write_lock_t
+libcthreads_lock_t
+libcthreads_queue_t
+Timer
+other
+Filter
+z_stream
+z_stream_s
+z_streamp
+pthread_t
+boolean
+Event
+Error
+DIR
+block_state
+List
+allocator<wchar_t>
+deflate_state
+SDL_Surface
+Bytef
+pair<int, int>
+Message
+pair<std::__tree_iterator<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__tree_node<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, void *> *, long>, bool>
+pair<std::__tree_const_iterator<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__tree_node<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, void *> *, long>, bool>
+sigset_t
+in6_addr
+tree_desc
+hostent
+unique_ptr<std::__tree_node<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, void *>, std::__tree_node_destructor<std::allocator<std::__tree_node<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, void *> > > >
+State
+voidp
+ct_data
+allocator<std::__tree_node<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, void *> >
+pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >
+mask
+allocator<unsigned long>
+ulg
+allocator<std::__tree_node<std::__value_type<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, void *> >
+MD5_CTX
+uchar
+File
+less<int>
+ofstream
+ct_data_s
+gzFile
+pollfd
+tree_desc_s
+vector<float, std::allocator<float> >
+libfcache_cache_t
+tuple<std::basic_string<char, std::char_traits<char>, std::allocator<char> > &&>
+libfdata_list_element_t
+libfdata_range_t
+libfdata_tree_node_t
+libfdata_tree_t
+libfdata_vector_t
+libfdata_internal_list_t
+libfdata_list_t
+libfdata_range
+libfcache_cache_value_t
+uLongf
+libfdata_internal_list
+Code
+unique_ptr<std::__tree_node<std::__value_type<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, void *>, std::__tree_node_destructor<std::allocator<std::__tree_node<std::__value_type<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, void *> > > >
+libfdata_mapped_range
+basic_fstream<char, std::char_traits<char> >
+Display
+Config
+TestCase
+passwd
+nullptr_t
+back_insert_iterator<std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >
+charf
+gz_headerp
+wstring
+libfdata_stream_t
+Color
+libfdata_range_list_t
+Option
+deque<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > >
+sockaddr_storage
+code
+gz_header
+libfdata_mapped_range_t
+gz_header_s
