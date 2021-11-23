@@ -1,0 +1,109 @@
+#################################################
+# onmt_build_vocab options:
+#################################################
+
+## Where the samples will be written
+save_data: samples
+## Where the vocab(s) will be written
+src_vocab: 'vocab/src'
+tgt_vocab: 'vocab/tgt'
+# Prevent overwriting existing files in the folder
+overwrite: False
+
+# NOTE Use sentencepiece even if SPM model is BPE, since this just specifies the model file format.
+src_subword_type: sentencepiece
+src_subword_model: '../../../subword-model/wasm/500.model'
+# Specific arguments for pyonmttok
+# This tokenizer runs _before_ SentencePiece/BPE. Since we don't want additional
+# tokenization besides the ones by SPM, use mode: none.
+src_onmttok_kwargs: "{'mode': 'none', 'spacer_annotate': True}"
+
+tgt_subword_type: sentencepiece
+tgt_subword_model: '../../../subword-model/type/names-filtered/500.model'
+tgt_onmttok_kwargs: "{'mode': 'none', 'spacer_annotate': True}"
+
+# We don't want any "dynamic" tokenization, like unigram sampling, so disable:
+# Number of candidates for SentencePiece sampling
+# src_subword_nbest: 20
+# Smoothing parameter for SentencePiece sampling
+# src_subword_alpha: 0.1
+
+# Corpus opts:
+data:
+    corpus_1:
+        path_src: '/home/daniel/wasm-type-prediction/data/extracted/final-eval/names-filtered-no-wasm-ty/split-by-dir-shuffle/param/train/wasm.txt'
+        path_tgt: '/home/daniel/wasm-type-prediction/data/extracted/final-eval/names-filtered-no-wasm-ty/split-by-dir-shuffle/param/train/type.txt'
+        # Not sure what the difference is between sentencepiece and onmt_tokenize
+        # transforms: [sentencepiece, filtertoolong]
+        transforms: [onmt_tokenize]
+        weight: 1
+    valid:
+        path_src: '/home/daniel/wasm-type-prediction/data/extracted/final-eval/names-filtered-no-wasm-ty/split-by-dir-shuffle/param/dev.10000/wasm.txt'
+        path_tgt: '/home/daniel/wasm-type-prediction/data/extracted/final-eval/names-filtered-no-wasm-ty/split-by-dir-shuffle/param/dev.10000/type.txt'
+        transforms: [onmt_tokenize]
+
+
+#################################################
+# onmt_train options:
+#################################################
+
+# Vocabulary files that were just created
+# src_vocab and tgt_vocab from above
+
+# Train on a single GPU
+world_size: 1
+gpu_ranks: [0]
+# multi-GPU training
+# world_size: 2
+# gpu_ranks: [0, 1] # or 1
+
+# Where to save the checkpoints
+save_model: model
+save_checkpoint_steps: 1000
+
+# default 10000, but model converges relatively quickly to ~80% training acc, so check a bit more often (also with 10k devset samples, it doesn't take too long)
+# validation can also take ~10 minutes, so don't do it too often
+valid_steps: 1000
+# 1 epoch = train_samples / batch_size / N GPUs (see above)
+train_steps: 50000 # default: 100000
+log_file: 'train.log'
+report_every: 50 # default 50
+
+# stop if not improved after N validation steps
+early_stopping: 5
+
+optim: 'adam' # default sgd
+learning_rate: 0.001 # default 1.0, recommended for adam 0.001, takes quite long to converge, TypeWriter used 0.005
+# also some say learning rate should be scaled with k or sqrt(k) of batch size
+
+dropout: 0.2 # default 0.3, seems to over-regularize
+
+# constraints/effects of batch size:
+# - larger is faster, since more parallelization in matmuls -> as large as possible
+# - hard limit: GPU memory, whole batch has to fit inside
+# - larger "smoothes" the gradients more, might converge faster, but might also not be possible to
+#   go into small "wrinkles" of the loss surface -> not optimal model performance
+# one step (as reported in log) == one batch, so steps/#epochs = dataset_samples/batch_size
+# see https://forum.opennmt.net/t/training-steps-continue-training-explanation/2772/2
+# here: ~5M samples / B batch size / N GPUs == one epoch
+batch_size: 128 # default 64
+
+# way too large with 500, gensim uses 50 by default
+word_vec_size: 100 # embedding dimension, default src_word_vec_size = tgt_word_vec_size = 500
+
+encoder_type: 'brnn' # default: rnn
+
+rnn_size: 512 # default enc_rnn_size = dec_rnn_size = 500
+
+dec_layers: 1 # default: 2, but since the type language is quite simple, single layer should suffice
+
+# stupid option names: src_seq_length FILTERS OUT all samples above that length, only src_seq_length_trunc 
+# truncates the inputs. Also, there is no way to disable filtering, except for setting a really high value...
+# see https://github.com/OpenNMT/OpenNMT-py/issues/441
+# and https://github.com/OpenNMT/OpenNMT-py/issues/1075
+# I am not sure if those actually work in OpenNMT-py 2.0
+# TODO Test with src_...trunc and without
+src_seq_length_trunc: 500 # default None (don't truncate, filter out completely)
+src_seq_length: 10000 # default 50, set to absurd high values such that no sample is filtered BEFORE truncation
+tgt_seq_length_trunc: 500 # default None (don't truncate, filter out completely)
+tgt_seq_length: 1000 # default 50, set to absurd high values such that no sample is filtered BEFORE truncation
