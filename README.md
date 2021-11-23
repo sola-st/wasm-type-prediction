@@ -28,13 +28,13 @@ The linked repositories / pages contain the most up-to-date installation instruc
 This repository is roughly organized into the following directories and files:
 
 - `data/`: The most important input and intermediate files of the approach. Notably:
-    * `ubunut-packages.txt`: List of all Ubuntu packages that were attempted to be compiled to WebAssembly.
+    * `ubuntu-packages.txt`: List of all Ubuntu packages that were attempted to be compiled to WebAssembly.
     * `binaries.7z`: All successfully compiled object files that contained WebAssembly code and DWARF debug information.
     * `name-stats.csv`: Extracted statistics on all type names (in typedefs and named datatypes).
     * `common-names.txt`: List of type names that appear at least once in 1% or more of all packages.
     * `dataset.7z`: Split and deduplicated training/dev/test textual data as input to sequence-to-sequence neural network.
 - `implementation/`: Source code of the data collection, extraction of training data, various scripts for data splitting, and shell scripts for training and evaluating the models. See below for more information about the pipeline.
-- `models/`: Trained models on our data, such that (if you don't want to run the whole data extraction, training etc., you can just use those saved model checkpoints)
+- `models/`: Trained models on our data, such that if you don't want to run the whole data extraction, training etc., you can just use those saved model checkpoints.
     * `subword/`: SentencePiece subword models for WebAssembly and type tokens.
     * `seq2seq/`: OpenNMT-py 2.0 sequence-to-sequence neural model. Config files used for `onmt_build_vocab` and `onmt_train` and saved model parameters checkpoint of the best model on the dev dataset.
 - `results-testdata/`: Predictions of both the statistical baseline model (see paper) and our best model, for each combination of the five type languages (see paper) and param/return type prediction.
