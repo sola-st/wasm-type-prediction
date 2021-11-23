@@ -1,0 +1,81 @@
+2021-11-17 21:30:14 INFO     reading predictions from 'predictions.baseline-model.txt'...
+2021-11-17 21:30:14 INFO     predictions:             1177165
+2021-11-17 21:30:14 INFO     ground truth samples:     235433
+2021-11-17 21:30:14 INFO     top-k: 5
+2021-11-17 21:30:14 INFO     perfect match accuracy:
+2021-11-17 21:30:14 INFO       top-1: 28.67% (67502/235433)
+2021-11-17 21:30:14 INFO       top-2: 37.52% (88326/235433)
+2021-11-17 21:30:15 INFO       top-3: 44.44% (104621/235433)
+2021-11-17 21:30:15 INFO       top-4: 59.86% (140922/235433)
+2021-11-17 21:30:15 INFO       top-5: 61.35% (144445/235433)
+2021-11-17 21:30:15 INFO     average type prefix score (top-1): 0.452
+2021-11-17 21:30:15 INFO     average weighted type prefix score (top-1): 0.5516
+2021-11-17 21:30:16 INFO     average Jaccard metric (top-1): 0.4449
+2021-11-17 21:30:43 INFO     BLEU score (top-1, corpus): 0.4028
+2021-11-17 21:30:43 INFO     most common mispredictions:
+2021-11-17 21:30:43 INFO       ground truth (36221 samples, 15.38% of all samples):
+2021-11-17 21:30:43 INFO           primitive int32_t
+2021-11-17 21:30:43 INFO       most common mispredictions (in total 36221, 100.00% of this label is wrong):
+2021-11-17 21:30:43 INFO        36221 (100.00% of mispredictions) pointer class
+2021-11-17 21:30:43 INFO       ground truth (19070 samples, 8.10% of all samples):
+2021-11-17 21:30:43 INFO           pointer struct
+2021-11-17 21:30:43 INFO       most common mispredictions (in total 19070, 100.00% of this label is wrong):
+2021-11-17 21:30:43 INFO        19067 (99.98% of mispredictions) pointer class
+2021-11-17 21:30:43 INFO            3 ( 0.02% of mispredictions) primitive float64_t
+2021-11-17 21:30:43 INFO       ground truth (16293 samples, 6.92% of all samples):
+2021-11-17 21:30:43 INFO           pointer const class
+2021-11-17 21:30:43 INFO       most common mispredictions (in total 16293, 100.00% of this label is wrong):
+2021-11-17 21:30:43 INFO        16293 (100.00% of mispredictions) pointer class
+2021-11-17 21:30:43 INFO       ground truth (15777 samples, 6.70% of all samples):
+2021-11-17 21:30:43 INFO           pointer const primitive char
+2021-11-17 21:30:43 INFO       most common mispredictions (in total 15777, 100.00% of this label is wrong):
+2021-11-17 21:30:43 INFO        15777 (100.00% of mispredictions) pointer class
+2021-11-17 21:30:43 INFO       ground truth (9263 samples, 3.93% of all samples):
+2021-11-17 21:30:43 INFO           pointer enum primitive int32_t
+2021-11-17 21:30:43 INFO       most common mispredictions (in total 9263, 100.00% of this label is wrong):
+2021-11-17 21:30:43 INFO         9263 (100.00% of mispredictions) pointer class
+2021-11-17 21:30:43 INFO       ground truth (8210 samples, 3.49% of all samples):
+2021-11-17 21:30:43 INFO           pointer unknown
+2021-11-17 21:30:43 INFO       most common mispredictions (in total 8210, 100.00% of this label is wrong):
+2021-11-17 21:30:43 INFO         8210 (100.00% of mispredictions) pointer class
+2021-11-20 01:27:38 INFO     reading predictions from 'predictions.baseline-model.txt'...
+2021-11-20 01:27:39 INFO     predictions:             1177165
+2021-11-20 01:27:39 INFO     ground truth samples:     235433
+2021-11-20 01:27:39 INFO     top-k: 5
+2021-11-20 01:27:39 INFO     perfect match accuracy:
+2021-11-20 01:27:39 INFO       top-1: 28.67% (67502/235433)
+2021-11-20 01:27:39 INFO       top-2: 37.52% (88326/235433)
+2021-11-20 01:27:39 INFO       top-3: 44.44% (104621/235433)
+2021-11-20 01:27:39 INFO       top-4: 59.86% (140922/235433)
+2021-11-20 01:27:39 INFO       top-5: 61.35% (144445/235433)
+2021-11-20 01:27:40 INFO     average type prefix score (top-1): 0.452
+2021-11-20 01:27:40 INFO     average weighted type prefix score (top-1): 0.5516
+2021-11-20 01:27:41 INFO     average type prefix length (top-1): 1.054
+2021-11-20 01:27:41 INFO     average Jaccard metric (top-1): 0.4449
+2021-11-20 01:28:08 INFO     BLEU score (top-1, corpus): 0.4028
+2021-11-20 01:28:08 INFO     most common mispredictions:
+2021-11-20 01:28:08 INFO       ground truth (36221 samples, 15.38% of all samples):
+2021-11-20 01:28:08 INFO           primitive int32_t
+2021-11-20 01:28:08 INFO       most common mispredictions (in total 36221, 100.00% of this label is wrong):
+2021-11-20 01:28:08 INFO        36221 (100.00% of mispredictions) pointer class
+2021-11-20 01:28:08 INFO       ground truth (19070 samples, 8.10% of all samples):
+2021-11-20 01:28:08 INFO           pointer struct
+2021-11-20 01:28:08 INFO       most common mispredictions (in total 19070, 100.00% of this label is wrong):
+2021-11-20 01:28:08 INFO        19067 (99.98% of mispredictions) pointer class
+2021-11-20 01:28:08 INFO            3 ( 0.02% of mispredictions) primitive float64_t
+2021-11-20 01:28:08 INFO       ground truth (16293 samples, 6.92% of all samples):
+2021-11-20 01:28:08 INFO           pointer const class
+2021-11-20 01:28:08 INFO       most common mispredictions (in total 16293, 100.00% of this label is wrong):
+2021-11-20 01:28:08 INFO        16293 (100.00% of mispredictions) pointer class
+2021-11-20 01:28:08 INFO       ground truth (15777 samples, 6.70% of all samples):
+2021-11-20 01:28:08 INFO           pointer const primitive char
+2021-11-20 01:28:08 INFO       most common mispredictions (in total 15777, 100.00% of this label is wrong):
+2021-11-20 01:28:08 INFO        15777 (100.00% of mispredictions) pointer class
+2021-11-20 01:28:08 INFO       ground truth (9263 samples, 3.93% of all samples):
+2021-11-20 01:28:08 INFO           pointer enum primitive int32_t
+2021-11-20 01:28:08 INFO       most common mispredictions (in total 9263, 100.00% of this label is wrong):
+2021-11-20 01:28:08 INFO         9263 (100.00% of mispredictions) pointer class
+2021-11-20 01:28:08 INFO       ground truth (8210 samples, 3.49% of all samples):
+2021-11-20 01:28:08 INFO           pointer unknown
+2021-11-20 01:28:08 INFO       most common mispredictions (in total 8210, 100.00% of this label is wrong):
+2021-11-20 01:28:08 INFO         8210 (100.00% of mispredictions) pointer class

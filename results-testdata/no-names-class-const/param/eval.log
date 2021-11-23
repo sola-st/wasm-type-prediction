@@ -1,0 +1,127 @@
+2021-11-19 01:18:10 INFO     reading predictions from 'predictions.model_best.txt'...
+2021-11-19 01:18:10 INFO     predictions:             1177165
+2021-11-19 01:18:10 INFO     ground truth samples:     235433
+2021-11-19 01:18:10 INFO     top-k: 5
+2021-11-19 01:18:10 INFO     perfect match accuracy:
+2021-11-19 01:18:11 INFO       top-1: 65.06% (153167/235433)
+2021-11-19 01:18:11 INFO       top-2: 75.11% (176835/235433)
+2021-11-19 01:18:11 INFO       top-3: 80.54% (189622/235433)
+2021-11-19 01:18:11 INFO       top-4: 83.76% (197187/235433)
+2021-11-19 01:18:11 INFO       top-5: 86.16% (202849/235433)
+2021-11-19 01:18:11 INFO     average type prefix score (top-1): 0.7364
+2021-11-19 01:18:12 INFO     average weighted type prefix score (top-1): 0.779
+2021-11-19 01:18:12 INFO     average Jaccard metric (top-1): 0.7505
+2021-11-19 01:18:39 INFO     BLEU score (top-1, corpus): 0.7919
+2021-11-19 01:18:39 INFO     most common mispredictions:
+2021-11-19 01:18:39 INFO       ground truth (18049 samples, 7.67% of all samples):
+2021-11-19 01:18:39 INFO           pointer primitive char
+2021-11-19 01:18:39 INFO       most common mispredictions (in total 11942, 66.16% of this label is wrong):
+2021-11-19 01:18:39 INFO         7429 (62.21% of mispredictions) pointer struct
+2021-11-19 01:18:39 INFO         3289 (27.54% of mispredictions) primitive int32_t
+2021-11-19 01:18:39 INFO          444 ( 3.72% of mispredictions) pointer primitive uint8_t
+2021-11-19 01:18:39 INFO          304 ( 2.55% of mispredictions) primitive uint32_t
+2021-11-19 01:18:39 INFO          123 ( 1.03% of mispredictions) pointer unknown
+2021-11-19 01:18:39 INFO       ground truth (36670 samples, 15.58% of all samples):
+2021-11-19 01:18:39 INFO           primitive int32_t
+2021-11-19 01:18:39 INFO       most common mispredictions (in total 11271, 30.74% of this label is wrong):
+2021-11-19 01:18:39 INFO         6615 (58.69% of mispredictions) pointer struct
+2021-11-19 01:18:39 INFO         2120 (18.81% of mispredictions) primitive uint32_t
+2021-11-19 01:18:39 INFO          502 ( 4.45% of mispredictions) pointer primitive char
+2021-11-19 01:18:39 INFO          323 ( 2.87% of mispredictions) pointer primitive int32_t
+2021-11-19 01:18:39 INFO          223 ( 1.98% of mispredictions) primitive bool
+2021-11-19 01:18:39 INFO       ground truth (10098 samples, 4.29% of all samples):
+2021-11-19 01:18:39 INFO           pointer unknown
+2021-11-19 01:18:39 INFO       most common mispredictions (in total 9496, 94.04% of this label is wrong):
+2021-11-19 01:18:39 INFO         6301 (66.35% of mispredictions) pointer struct
+2021-11-19 01:18:39 INFO         1339 (14.10% of mispredictions) primitive int32_t
+2021-11-19 01:18:39 INFO          576 ( 6.07% of mispredictions) pointer primitive uint8_t
+2021-11-19 01:18:39 INFO          332 ( 3.50% of mispredictions) pointer primitive char
+2021-11-19 01:18:39 INFO          271 ( 2.85% of mispredictions) pointer primitive int32_t
+2021-11-19 01:18:39 INFO       ground truth (9263 samples, 3.93% of all samples):
+2021-11-19 01:18:39 INFO           pointer enum primitive int32_t
+2021-11-19 01:18:39 INFO       most common mispredictions (in total 9263, 100.00% of this label is wrong):
+2021-11-19 01:18:39 INFO         5857 (63.23% of mispredictions) pointer primitive int32_t
+2021-11-19 01:18:39 INFO         2269 (24.50% of mispredictions) pointer struct
+2021-11-19 01:18:39 INFO          606 ( 6.54% of mispredictions) primitive int32_t
+2021-11-19 01:18:39 INFO          249 ( 2.69% of mispredictions) pointer primitive uint32_t
+2021-11-19 01:18:39 INFO          101 ( 1.09% of mispredictions) primitive uint32_t
+2021-11-19 01:18:39 INFO       ground truth (102227 samples, 43.42% of all samples):
+2021-11-19 01:18:39 INFO           pointer struct
+2021-11-19 01:18:39 INFO       most common mispredictions (in total 6681, 6.54% of this label is wrong):
+2021-11-19 01:18:39 INFO         3766 (56.37% of mispredictions) primitive int32_t
+2021-11-19 01:18:39 INFO          690 (10.33% of mispredictions) pointer primitive char
+2021-11-19 01:18:39 INFO          354 ( 5.30% of mispredictions) primitive uint32_t
+2021-11-19 01:18:39 INFO          351 ( 5.25% of mispredictions) pointer primitive int32_t
+2021-11-19 01:18:39 INFO          272 ( 4.07% of mispredictions) struct
+2021-11-19 01:18:39 INFO       ground truth (4845 samples, 2.06% of all samples):
+2021-11-19 01:18:39 INFO           enum primitive uint32_t
+2021-11-19 01:18:39 INFO       most common mispredictions (in total 4570, 94.32% of this label is wrong):
+2021-11-19 01:18:39 INFO         2826 (61.84% of mispredictions) primitive int32_t
+2021-11-19 01:18:39 INFO         1170 (25.60% of mispredictions) pointer struct
+2021-11-19 01:18:39 INFO          169 ( 3.70% of mispredictions) primitive uint32_t
+2021-11-19 01:18:39 INFO           99 ( 2.17% of mispredictions) pointer primitive char
+2021-11-19 01:18:39 INFO           98 ( 2.14% of mispredictions) pointer primitive int32_t
+2021-11-20 01:30:44 INFO     reading predictions from 'predictions.model_best.txt'...
+2021-11-20 01:30:44 INFO     predictions:             1177165
+2021-11-20 01:30:44 INFO     ground truth samples:     235433
+2021-11-20 01:30:44 INFO     top-k: 5
+2021-11-20 01:30:45 INFO     perfect match accuracy:
+2021-11-20 01:30:45 INFO       top-1: 65.06% (153167/235433)
+2021-11-20 01:30:45 INFO       top-2: 75.11% (176835/235433)
+2021-11-20 01:30:45 INFO       top-3: 80.54% (189622/235433)
+2021-11-20 01:30:45 INFO       top-4: 83.76% (197187/235433)
+2021-11-20 01:30:45 INFO       top-5: 86.16% (202849/235433)
+2021-11-20 01:30:45 INFO     average type prefix score (top-1): 0.7364
+2021-11-20 01:30:46 INFO     average weighted type prefix score (top-1): 0.779
+2021-11-20 01:30:46 INFO     average type prefix length (top-1): 1.622
+2021-11-20 01:30:47 INFO     average Jaccard metric (top-1): 0.7505
+2021-11-20 01:31:14 INFO     BLEU score (top-1, corpus): 0.7919
+2021-11-20 01:31:15 INFO     most common mispredictions:
+2021-11-20 01:31:15 INFO       ground truth (18049 samples, 7.67% of all samples):
+2021-11-20 01:31:15 INFO           pointer primitive char
+2021-11-20 01:31:15 INFO       most common mispredictions (in total 11942, 66.16% of this label is wrong):
+2021-11-20 01:31:15 INFO         7429 (62.21% of mispredictions) pointer struct
+2021-11-20 01:31:15 INFO         3289 (27.54% of mispredictions) primitive int32_t
+2021-11-20 01:31:15 INFO          444 ( 3.72% of mispredictions) pointer primitive uint8_t
+2021-11-20 01:31:15 INFO          304 ( 2.55% of mispredictions) primitive uint32_t
+2021-11-20 01:31:15 INFO          123 ( 1.03% of mispredictions) pointer unknown
+2021-11-20 01:31:15 INFO       ground truth (36670 samples, 15.58% of all samples):
+2021-11-20 01:31:15 INFO           primitive int32_t
+2021-11-20 01:31:15 INFO       most common mispredictions (in total 11271, 30.74% of this label is wrong):
+2021-11-20 01:31:15 INFO         6615 (58.69% of mispredictions) pointer struct
+2021-11-20 01:31:15 INFO         2120 (18.81% of mispredictions) primitive uint32_t
+2021-11-20 01:31:15 INFO          502 ( 4.45% of mispredictions) pointer primitive char
+2021-11-20 01:31:15 INFO          323 ( 2.87% of mispredictions) pointer primitive int32_t
+2021-11-20 01:31:15 INFO          223 ( 1.98% of mispredictions) primitive bool
+2021-11-20 01:31:15 INFO       ground truth (10098 samples, 4.29% of all samples):
+2021-11-20 01:31:15 INFO           pointer unknown
+2021-11-20 01:31:15 INFO       most common mispredictions (in total 9496, 94.04% of this label is wrong):
+2021-11-20 01:31:15 INFO         6301 (66.35% of mispredictions) pointer struct
+2021-11-20 01:31:15 INFO         1339 (14.10% of mispredictions) primitive int32_t
+2021-11-20 01:31:15 INFO          576 ( 6.07% of mispredictions) pointer primitive uint8_t
+2021-11-20 01:31:15 INFO          332 ( 3.50% of mispredictions) pointer primitive char
+2021-11-20 01:31:15 INFO          271 ( 2.85% of mispredictions) pointer primitive int32_t
+2021-11-20 01:31:15 INFO       ground truth (9263 samples, 3.93% of all samples):
+2021-11-20 01:31:15 INFO           pointer enum primitive int32_t
+2021-11-20 01:31:15 INFO       most common mispredictions (in total 9263, 100.00% of this label is wrong):
+2021-11-20 01:31:15 INFO         5857 (63.23% of mispredictions) pointer primitive int32_t
+2021-11-20 01:31:15 INFO         2269 (24.50% of mispredictions) pointer struct
+2021-11-20 01:31:15 INFO          606 ( 6.54% of mispredictions) primitive int32_t
+2021-11-20 01:31:15 INFO          249 ( 2.69% of mispredictions) pointer primitive uint32_t
+2021-11-20 01:31:15 INFO          101 ( 1.09% of mispredictions) primitive uint32_t
+2021-11-20 01:31:15 INFO       ground truth (102227 samples, 43.42% of all samples):
+2021-11-20 01:31:15 INFO           pointer struct
+2021-11-20 01:31:15 INFO       most common mispredictions (in total 6681, 6.54% of this label is wrong):
+2021-11-20 01:31:15 INFO         3766 (56.37% of mispredictions) primitive int32_t
+2021-11-20 01:31:15 INFO          690 (10.33% of mispredictions) pointer primitive char
+2021-11-20 01:31:15 INFO          354 ( 5.30% of mispredictions) primitive uint32_t
+2021-11-20 01:31:15 INFO          351 ( 5.25% of mispredictions) pointer primitive int32_t
+2021-11-20 01:31:15 INFO          272 ( 4.07% of mispredictions) struct
+2021-11-20 01:31:15 INFO       ground truth (4845 samples, 2.06% of all samples):
+2021-11-20 01:31:15 INFO           enum primitive uint32_t
+2021-11-20 01:31:15 INFO       most common mispredictions (in total 4570, 94.32% of this label is wrong):
+2021-11-20 01:31:15 INFO         2826 (61.84% of mispredictions) primitive int32_t
+2021-11-20 01:31:15 INFO         1170 (25.60% of mispredictions) pointer struct
+2021-11-20 01:31:15 INFO          169 ( 3.70% of mispredictions) primitive uint32_t
+2021-11-20 01:31:15 INFO           99 ( 2.17% of mispredictions) pointer primitive char
+2021-11-20 01:31:15 INFO           98 ( 2.14% of mispredictions) pointer primitive int32_t

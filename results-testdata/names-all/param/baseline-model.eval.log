@@ -1,0 +1,79 @@
+2021-11-17 21:28:11 INFO     reading predictions from 'predictions.baseline-model.txt'...
+2021-11-17 21:28:12 INFO     predictions:             1177165
+2021-11-17 21:28:12 INFO     ground truth samples:     235433
+2021-11-17 21:28:12 INFO     top-k: 5
+2021-11-17 21:28:12 INFO     perfect match accuracy:
+2021-11-17 21:28:12 INFO       top-1: 13.02% (30659/235433)
+2021-11-17 21:28:12 INFO       top-2: 19.88% (46803/235433)
+2021-11-17 21:28:12 INFO       top-3: 20.74% (48824/235433)
+2021-11-17 21:28:12 INFO       top-4: 20.74% (48824/235433)
+2021-11-17 21:28:12 INFO       top-5: 20.84% (49072/235433)
+2021-11-17 21:28:13 INFO     average type prefix score (top-1): 0.1384
+2021-11-17 21:28:13 INFO     average weighted type prefix score (top-1): 0.1426
+2021-11-17 21:28:13 INFO     average Jaccard metric (top-1): 0.2427
+2021-11-17 21:28:49 INFO     BLEU score (top-1, corpus): 0.1986
+2021-11-17 21:28:50 INFO     most common mispredictions:
+2021-11-17 21:28:50 INFO       ground truth (15681 samples, 6.66% of all samples):
+2021-11-17 21:28:50 INFO           pointer const primitive char
+2021-11-17 21:28:50 INFO       most common mispredictions (in total 15681, 100.00% of this label is wrong):
+2021-11-17 21:28:50 INFO        15681 (100.00% of mispredictions) primitive int32_t
+2021-11-17 21:28:50 INFO       ground truth (9241 samples, 3.93% of all samples):
+2021-11-17 21:28:50 INFO           pointer name "UErrorCode" enum primitive int32_t
+2021-11-17 21:28:50 INFO       most common mispredictions (in total 9241, 100.00% of this label is wrong):
+2021-11-17 21:28:50 INFO         9241 (100.00% of mispredictions) primitive int32_t
+2021-11-17 21:28:50 INFO       ground truth (8671 samples, 3.68% of all samples):
+2021-11-17 21:28:50 INFO           name "int32_t" primitive int32_t
+2021-11-17 21:28:50 INFO       most common mispredictions (in total 8671, 100.00% of this label is wrong):
+2021-11-17 21:28:50 INFO         8671 (100.00% of mispredictions) primitive int32_t
+2021-11-17 21:28:50 INFO       ground truth (4858 samples, 2.06% of all samples):
+2021-11-17 21:28:50 INFO           pointer unknown
+2021-11-17 21:28:50 INFO       most common mispredictions (in total 4858, 100.00% of this label is wrong):
+2021-11-17 21:28:50 INFO         4858 (100.00% of mispredictions) primitive int32_t
+2021-11-17 21:28:50 INFO       ground truth (3714 samples, 1.58% of all samples):
+2021-11-17 21:28:50 INFO           pointer primitive int32_t
+2021-11-17 21:28:50 INFO       most common mispredictions (in total 3714, 100.00% of this label is wrong):
+2021-11-17 21:28:50 INFO         3714 (100.00% of mispredictions) primitive int32_t
+2021-11-17 21:28:50 INFO       ground truth (3497 samples, 1.49% of all samples):
+2021-11-17 21:28:50 INFO           pointer primitive float64_t
+2021-11-17 21:28:50 INFO       most common mispredictions (in total 3497, 100.00% of this label is wrong):
+2021-11-17 21:28:50 INFO         3497 (100.00% of mispredictions) primitive int32_t
+2021-11-20 01:26:00 INFO     reading predictions from 'predictions.baseline-model.txt'...
+2021-11-20 01:26:00 INFO     predictions:             1177165
+2021-11-20 01:26:00 INFO     ground truth samples:     235433
+2021-11-20 01:26:00 INFO     top-k: 5
+2021-11-20 01:26:00 INFO     perfect match accuracy:
+2021-11-20 01:26:00 INFO       top-1: 13.02% (30659/235433)
+2021-11-20 01:26:00 INFO       top-2: 19.88% (46803/235433)
+2021-11-20 01:26:00 INFO       top-3: 20.74% (48824/235433)
+2021-11-20 01:26:00 INFO       top-4: 20.74% (48824/235433)
+2021-11-20 01:26:00 INFO       top-5: 20.84% (49072/235433)
+2021-11-20 01:26:01 INFO     average type prefix score (top-1): 0.1384
+2021-11-20 01:26:01 INFO     average weighted type prefix score (top-1): 0.1426
+2021-11-20 01:26:02 INFO     average type prefix length (top-1): 0.2822
+2021-11-20 01:26:02 INFO     average Jaccard metric (top-1): 0.2427
+2021-11-20 01:26:36 INFO     BLEU score (top-1, corpus): 0.1986
+2021-11-20 01:26:36 INFO     most common mispredictions:
+2021-11-20 01:26:36 INFO       ground truth (15681 samples, 6.66% of all samples):
+2021-11-20 01:26:36 INFO           pointer const primitive char
+2021-11-20 01:26:36 INFO       most common mispredictions (in total 15681, 100.00% of this label is wrong):
+2021-11-20 01:26:36 INFO        15681 (100.00% of mispredictions) primitive int32_t
+2021-11-20 01:26:36 INFO       ground truth (9241 samples, 3.93% of all samples):
+2021-11-20 01:26:36 INFO           pointer name "UErrorCode" enum primitive int32_t
+2021-11-20 01:26:36 INFO       most common mispredictions (in total 9241, 100.00% of this label is wrong):
+2021-11-20 01:26:36 INFO         9241 (100.00% of mispredictions) primitive int32_t
+2021-11-20 01:26:36 INFO       ground truth (8671 samples, 3.68% of all samples):
+2021-11-20 01:26:36 INFO           name "int32_t" primitive int32_t
+2021-11-20 01:26:36 INFO       most common mispredictions (in total 8671, 100.00% of this label is wrong):
+2021-11-20 01:26:36 INFO         8671 (100.00% of mispredictions) primitive int32_t
+2021-11-20 01:26:36 INFO       ground truth (4858 samples, 2.06% of all samples):
+2021-11-20 01:26:36 INFO           pointer unknown
+2021-11-20 01:26:36 INFO       most common mispredictions (in total 4858, 100.00% of this label is wrong):
+2021-11-20 01:26:36 INFO         4858 (100.00% of mispredictions) primitive int32_t
+2021-11-20 01:26:36 INFO       ground truth (3714 samples, 1.58% of all samples):
+2021-11-20 01:26:36 INFO           pointer primitive int32_t
+2021-11-20 01:26:36 INFO       most common mispredictions (in total 3714, 100.00% of this label is wrong):
+2021-11-20 01:26:36 INFO         3714 (100.00% of mispredictions) primitive int32_t
+2021-11-20 01:26:36 INFO       ground truth (3497 samples, 1.49% of all samples):
+2021-11-20 01:26:36 INFO           pointer primitive float64_t
+2021-11-20 01:26:36 INFO       most common mispredictions (in total 3497, 100.00% of this label is wrong):
+2021-11-20 01:26:36 INFO         3497 (100.00% of mispredictions) primitive int32_t

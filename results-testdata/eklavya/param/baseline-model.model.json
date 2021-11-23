@@ -1,0 +1,1 @@
+{"i32": ["pointer", "int", "struct", "enum", "char", "union", "float"], "i64": ["int", "struct", "pointer", "float"], "f64": ["float"], "f32": ["float", "struct"]}

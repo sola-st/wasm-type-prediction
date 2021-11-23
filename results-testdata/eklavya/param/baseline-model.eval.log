@@ -1,0 +1,118 @@
+2021-11-17 21:24:20 INFO     reading predictions from 'predictions.baseline-model.txt'...
+2021-11-17 21:24:21 INFO     predictions:             1177165
+2021-11-17 21:24:21 INFO     ground truth samples:     235433
+2021-11-17 21:24:21 INFO     top-k: 5
+2021-11-17 21:24:21 INFO     perfect match accuracy:
+2021-11-17 21:24:21 INFO       top-1: 77.14% (181619/235433)
+2021-11-17 21:24:21 INFO       top-2: 97.09% (228587/235433)
+2021-11-17 21:24:21 INFO       top-3: 97.42% (229352/235433)
+2021-11-17 21:24:21 INFO       top-4: 99.63% (234555/235433)
+2021-11-17 21:24:21 INFO       top-5: 99.89% (235166/235433)
+2021-11-17 21:24:22 INFO     average type prefix score (top-1): 0.7714
+2021-11-17 21:24:22 INFO     average weighted type prefix score (top-1): 0.7714
+2021-11-17 21:24:22 INFO     average Jaccard metric (top-1): 0.7714
+2021-11-17 21:24:39 INFO     BLEU score (top-1, corpus): 0.8161
+2021-11-17 21:24:39 INFO     most common mispredictions:
+2021-11-17 21:24:39 INFO       ground truth (49337 samples, 20.96% of all samples):
+2021-11-17 21:24:39 INFO           int
+2021-11-17 21:24:39 INFO       most common mispredictions (in total 46968, 95.20% of this label is wrong):
+2021-11-17 21:24:39 INFO        46968 (100.00% of mispredictions) pointer
+2021-11-17 21:24:39 INFO       ground truth (5203 samples, 2.21% of all samples):
+2021-11-17 21:24:39 INFO           enum
+2021-11-17 21:24:39 INFO       most common mispredictions (in total 5203, 100.00% of this label is wrong):
+2021-11-17 21:24:39 INFO         5203 (100.00% of mispredictions) pointer
+2021-11-17 21:24:39 INFO       ground truth (765 samples, 0.32% of all samples):
+2021-11-17 21:24:39 INFO           struct
+2021-11-17 21:24:39 INFO       most common mispredictions (in total 765, 100.00% of this label is wrong):
+2021-11-17 21:24:39 INFO          765 (100.00% of mispredictions) pointer
+2021-11-17 21:24:39 INFO       ground truth (611 samples, 0.26% of all samples):
+2021-11-17 21:24:39 INFO           char
+2021-11-17 21:24:39 INFO       most common mispredictions (in total 611, 100.00% of this label is wrong):
+2021-11-17 21:24:39 INFO          611 (100.00% of mispredictions) pointer
+2021-11-17 21:24:39 INFO       ground truth (264 samples, 0.11% of all samples):
+2021-11-17 21:24:39 INFO           union
+2021-11-17 21:24:39 INFO       most common mispredictions (in total 264, 100.00% of this label is wrong):
+2021-11-17 21:24:39 INFO          264 (100.00% of mispredictions) pointer
+2021-11-17 21:24:39 INFO       ground truth (171130 samples, 72.69% of all samples):
+2021-11-17 21:24:39 INFO           pointer
+2021-11-17 21:24:39 INFO       most common mispredictions (in total 3, 0.00% of this label is wrong):
+2021-11-17 21:24:39 INFO            3 (100.00% of mispredictions) float
+2021-11-17 21:26:31 INFO     reading predictions from 'predictions.baseline-model.txt'...
+2021-11-17 21:26:31 INFO     predictions:             1177165
+2021-11-17 21:26:31 INFO     ground truth samples:     235433
+2021-11-17 21:26:31 INFO     top-k: 5
+2021-11-17 21:26:31 INFO     perfect match accuracy:
+2021-11-17 21:26:31 INFO       top-1: 77.14% (181619/235433)
+2021-11-17 21:26:31 INFO       top-2: 97.09% (228587/235433)
+2021-11-17 21:26:31 INFO       top-3: 97.42% (229352/235433)
+2021-11-17 21:26:31 INFO       top-4: 99.63% (234555/235433)
+2021-11-17 21:26:32 INFO       top-5: 99.89% (235166/235433)
+2021-11-17 21:26:32 INFO     average type prefix score (top-1): 0.7714
+2021-11-17 21:26:32 INFO     average weighted type prefix score (top-1): 0.7714
+2021-11-17 21:26:32 INFO     average Jaccard metric (top-1): 0.7714
+2021-11-17 21:26:49 INFO     BLEU score (top-1, corpus): 0.8161
+2021-11-17 21:26:49 INFO     most common mispredictions:
+2021-11-17 21:26:49 INFO       ground truth (49337 samples, 20.96% of all samples):
+2021-11-17 21:26:49 INFO           int
+2021-11-17 21:26:49 INFO       most common mispredictions (in total 46968, 95.20% of this label is wrong):
+2021-11-17 21:26:49 INFO        46968 (100.00% of mispredictions) pointer
+2021-11-17 21:26:49 INFO       ground truth (5203 samples, 2.21% of all samples):
+2021-11-17 21:26:49 INFO           enum
+2021-11-17 21:26:49 INFO       most common mispredictions (in total 5203, 100.00% of this label is wrong):
+2021-11-17 21:26:49 INFO         5203 (100.00% of mispredictions) pointer
+2021-11-17 21:26:49 INFO       ground truth (765 samples, 0.32% of all samples):
+2021-11-17 21:26:49 INFO           struct
+2021-11-17 21:26:49 INFO       most common mispredictions (in total 765, 100.00% of this label is wrong):
+2021-11-17 21:26:49 INFO          765 (100.00% of mispredictions) pointer
+2021-11-17 21:26:49 INFO       ground truth (611 samples, 0.26% of all samples):
+2021-11-17 21:26:49 INFO           char
+2021-11-17 21:26:49 INFO       most common mispredictions (in total 611, 100.00% of this label is wrong):
+2021-11-17 21:26:49 INFO          611 (100.00% of mispredictions) pointer
+2021-11-17 21:26:49 INFO       ground truth (264 samples, 0.11% of all samples):
+2021-11-17 21:26:49 INFO           union
+2021-11-17 21:26:49 INFO       most common mispredictions (in total 264, 100.00% of this label is wrong):
+2021-11-17 21:26:49 INFO          264 (100.00% of mispredictions) pointer
+2021-11-17 21:26:49 INFO       ground truth (171130 samples, 72.69% of all samples):
+2021-11-17 21:26:49 INFO           pointer
+2021-11-17 21:26:49 INFO       most common mispredictions (in total 3, 0.00% of this label is wrong):
+2021-11-17 21:26:49 INFO            3 (100.00% of mispredictions) float
+2021-11-20 01:25:08 INFO     reading predictions from 'predictions.baseline-model.txt'...
+2021-11-20 01:25:08 INFO     predictions:             1177165
+2021-11-20 01:25:08 INFO     ground truth samples:     235433
+2021-11-20 01:25:08 INFO     top-k: 5
+2021-11-20 01:25:08 INFO     perfect match accuracy:
+2021-11-20 01:25:09 INFO       top-1: 77.14% (181619/235433)
+2021-11-20 01:25:09 INFO       top-2: 97.09% (228587/235433)
+2021-11-20 01:25:09 INFO       top-3: 97.42% (229352/235433)
+2021-11-20 01:25:09 INFO       top-4: 99.63% (234555/235433)
+2021-11-20 01:25:09 INFO       top-5: 99.89% (235166/235433)
+2021-11-20 01:25:09 INFO     average type prefix score (top-1): 0.7714
+2021-11-20 01:25:09 INFO     average weighted type prefix score (top-1): 0.7714
+2021-11-20 01:25:10 INFO     average type prefix length (top-1): 0.7714
+2021-11-20 01:25:10 INFO     average Jaccard metric (top-1): 0.7714
+2021-11-20 01:25:26 INFO     BLEU score (top-1, corpus): 0.8161
+2021-11-20 01:25:26 INFO     most common mispredictions:
+2021-11-20 01:25:26 INFO       ground truth (49337 samples, 20.96% of all samples):
+2021-11-20 01:25:26 INFO           int
+2021-11-20 01:25:26 INFO       most common mispredictions (in total 46968, 95.20% of this label is wrong):
+2021-11-20 01:25:26 INFO        46968 (100.00% of mispredictions) pointer
+2021-11-20 01:25:26 INFO       ground truth (5203 samples, 2.21% of all samples):
+2021-11-20 01:25:26 INFO           enum
+2021-11-20 01:25:26 INFO       most common mispredictions (in total 5203, 100.00% of this label is wrong):
+2021-11-20 01:25:26 INFO         5203 (100.00% of mispredictions) pointer
+2021-11-20 01:25:26 INFO       ground truth (765 samples, 0.32% of all samples):
+2021-11-20 01:25:26 INFO           struct
+2021-11-20 01:25:26 INFO       most common mispredictions (in total 765, 100.00% of this label is wrong):
+2021-11-20 01:25:26 INFO          765 (100.00% of mispredictions) pointer
+2021-11-20 01:25:26 INFO       ground truth (611 samples, 0.26% of all samples):
+2021-11-20 01:25:26 INFO           char
+2021-11-20 01:25:26 INFO       most common mispredictions (in total 611, 100.00% of this label is wrong):
+2021-11-20 01:25:26 INFO          611 (100.00% of mispredictions) pointer
+2021-11-20 01:25:26 INFO       ground truth (264 samples, 0.11% of all samples):
+2021-11-20 01:25:26 INFO           union
+2021-11-20 01:25:26 INFO       most common mispredictions (in total 264, 100.00% of this label is wrong):
+2021-11-20 01:25:26 INFO          264 (100.00% of mispredictions) pointer
+2021-11-20 01:25:26 INFO       ground truth (171130 samples, 72.69% of all samples):
+2021-11-20 01:25:26 INFO           pointer
+2021-11-20 01:25:26 INFO       most common mispredictions (in total 3, 0.00% of this label is wrong):
+2021-11-20 01:25:26 INFO            3 (100.00% of mispredictions) float

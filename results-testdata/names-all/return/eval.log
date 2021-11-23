@@ -1,0 +1,166 @@
+2021-11-18 01:39:03 INFO     reading predictions from 'predictions.model_best.txt'...
+2021-11-18 01:39:03 INFO     predictions:              215865
+2021-11-18 01:39:03 INFO     ground truth samples:      43173
+2021-11-18 01:39:03 INFO     top-k: 5
+2021-11-18 01:39:03 INFO     perfect match accuracy:
+2021-11-18 01:39:03 INFO       top-1: 40.63% (17540/43173)
+2021-11-18 01:39:03 INFO       top-2: 43.18% (18644/43173)
+2021-11-18 01:39:03 INFO       top-3: 45.40% (19599/43173)
+2021-11-18 01:39:03 INFO       top-4: 47.08% (20326/43173)
+2021-11-18 01:39:03 INFO       top-5: 47.25% (20399/43173)
+2021-11-18 01:39:03 INFO     average type prefix score (top-1): 0.4537
+2021-11-18 01:39:03 INFO     average weighted type prefix score (top-1): 0.4886
+2021-11-18 01:39:03 INFO     average Jaccard metric (top-1): 0.5514
+2021-11-18 01:39:09 INFO     BLEU score (top-1, corpus): 0.5099
+2021-11-18 01:39:09 INFO     most common mispredictions:
+2021-11-18 01:39:09 INFO       ground truth (2736 samples, 6.34% of all samples):
+2021-11-18 01:39:09 INFO           name "sf_count_t" primitive int64_t
+2021-11-18 01:39:09 INFO       most common mispredictions (in total 2736, 100.00% of this label is wrong):
+2021-11-18 01:39:09 INFO         2344 (85.67% of mispredictions) name "off64_t" primitive int64_t
+2021-11-18 01:39:09 INFO          276 (10.09% of mispredictions) name "uint64_t" primitive uint64_t
+2021-11-18 01:39:09 INFO           77 ( 2.81% of mispredictions) name "uint64_t" primitive int64_t
+2021-11-18 01:39:09 INFO           39 ( 1.43% of mispredictions) name "int64_t" primitive int64_t
+2021-11-18 01:39:09 INFO       ground truth (2149 samples, 4.98% of all samples):
+2021-11-18 01:39:09 INFO           name "int32_t" primitive int32_t
+2021-11-18 01:39:09 INFO       most common mispredictions (in total 2149, 100.00% of this label is wrong):
+2021-11-18 01:39:09 INFO         2048 (95.30% of mispredictions) primitive int32_t
+2021-11-18 01:39:09 INFO           46 ( 2.14% of mispredictions) pointer name "PyObject" struct
+2021-11-18 01:39:09 INFO           39 ( 1.81% of mispredictions) primitive bool
+2021-11-18 01:39:09 INFO           14 ( 0.65% of mispredictions) pointer const primitive char
+2021-11-18 01:39:09 INFO            2 ( 0.09% of mispredictions) pointer name "basic_ostream<char, std::char_traits<char> >" class
+2021-11-18 01:39:09 INFO       ground truth (1445 samples, 3.35% of all samples):
+2021-11-18 01:39:09 INFO           pointer const primitive char
+2021-11-18 01:39:09 INFO       most common mispredictions (in total 1344, 93.01% of this label is wrong):
+2021-11-18 01:39:09 INFO         1298 (96.58% of mispredictions) primitive int32_t
+2021-11-18 01:39:09 INFO           46 ( 3.42% of mispredictions) pointer name "PyObject" struct
+2021-11-18 01:39:09 INFO       ground truth (1188 samples, 2.75% of all samples):
+2021-11-18 01:39:09 INFO           name "UBool" primitive int8_t
+2021-11-18 01:39:09 INFO       most common mispredictions (in total 1188, 100.00% of this label is wrong):
+2021-11-18 01:39:09 INFO         1048 (88.22% of mispredictions) primitive int32_t
+2021-11-18 01:39:09 INFO          126 (10.61% of mispredictions) primitive bool
+2021-11-18 01:39:09 INFO           14 ( 1.18% of mispredictions) pointer name "PyObject" struct
+2021-11-18 01:39:09 INFO       ground truth (1187 samples, 2.75% of all samples):
+2021-11-18 01:39:09 INFO           pointer unknown
+2021-11-18 01:39:09 INFO       most common mispredictions (in total 1187, 100.00% of this label is wrong):
+2021-11-18 01:39:09 INFO         1123 (94.61% of mispredictions) primitive int32_t
+2021-11-18 01:39:09 INFO           45 ( 3.79% of mispredictions) pointer name "PyObject" struct
+2021-11-18 01:39:09 INFO           16 ( 1.35% of mispredictions) pointer const primitive char
+2021-11-18 01:39:09 INFO            3 ( 0.25% of mispredictions) pointer primitive char
+2021-11-18 01:39:09 INFO       ground truth (959 samples, 2.22% of all samples):
+2021-11-18 01:39:09 INFO           pointer primitive char
+2021-11-18 01:39:09 INFO       most common mispredictions (in total 959, 100.00% of this label is wrong):
+2021-11-18 01:39:09 INFO          884 (92.18% of mispredictions) primitive int32_t
+2021-11-18 01:39:09 INFO           50 ( 5.21% of mispredictions) pointer const primitive char
+2021-11-18 01:39:09 INFO           22 ( 2.29% of mispredictions) pointer name "PyObject" struct
+2021-11-18 01:39:09 INFO            3 ( 0.31% of mispredictions) pointer name "basic_ostream<char, std::char_traits<char> >" class
+2021-11-18 19:21:39 INFO     reading predictions from 'predictions.model_best.txt'...
+2021-11-18 19:21:39 INFO     predictions:              215865
+2021-11-18 19:21:39 INFO     ground truth samples:      43173
+2021-11-18 19:21:39 INFO     top-k: 5
+2021-11-18 19:21:39 INFO     perfect match accuracy:
+2021-11-18 19:21:39 INFO       top-1: 40.63% (17540/43173)
+2021-11-18 19:21:39 INFO       top-2: 43.18% (18644/43173)
+2021-11-18 19:21:39 INFO       top-3: 45.40% (19599/43173)
+2021-11-18 19:21:39 INFO       top-4: 47.08% (20326/43173)
+2021-11-18 19:21:39 INFO       top-5: 47.25% (20399/43173)
+2021-11-18 19:21:39 INFO     average type prefix score (top-1): 0.4537
+2021-11-18 19:21:39 INFO     average weighted type prefix score (top-1): 0.4886
+2021-11-18 19:21:40 INFO     average Jaccard metric (top-1): 0.5514
+2021-11-18 19:21:46 INFO     BLEU score (top-1, corpus): 0.5099
+2021-11-18 19:21:46 INFO     most common mispredictions:
+2021-11-18 19:21:46 INFO       ground truth (2736 samples, 6.34% of all samples):
+2021-11-18 19:21:46 INFO           name "sf_count_t" primitive int64_t
+2021-11-18 19:21:46 INFO       most common mispredictions (in total 2736, 100.00% of this label is wrong):
+2021-11-18 19:21:46 INFO         2344 (85.67% of mispredictions) name "off64_t" primitive int64_t
+2021-11-18 19:21:46 INFO          276 (10.09% of mispredictions) name "uint64_t" primitive uint64_t
+2021-11-18 19:21:46 INFO           77 ( 2.81% of mispredictions) name "uint64_t" primitive int64_t
+2021-11-18 19:21:46 INFO           39 ( 1.43% of mispredictions) name "int64_t" primitive int64_t
+2021-11-18 19:21:46 INFO       ground truth (2149 samples, 4.98% of all samples):
+2021-11-18 19:21:46 INFO           name "int32_t" primitive int32_t
+2021-11-18 19:21:46 INFO       most common mispredictions (in total 2149, 100.00% of this label is wrong):
+2021-11-18 19:21:46 INFO         2048 (95.30% of mispredictions) primitive int32_t
+2021-11-18 19:21:46 INFO           46 ( 2.14% of mispredictions) pointer name "PyObject" struct
+2021-11-18 19:21:46 INFO           39 ( 1.81% of mispredictions) primitive bool
+2021-11-18 19:21:46 INFO           14 ( 0.65% of mispredictions) pointer const primitive char
+2021-11-18 19:21:46 INFO            2 ( 0.09% of mispredictions) pointer name "basic_ostream<char, std::char_traits<char> >" class
+2021-11-18 19:21:46 INFO       ground truth (1445 samples, 3.35% of all samples):
+2021-11-18 19:21:46 INFO           pointer const primitive char
+2021-11-18 19:21:46 INFO       most common mispredictions (in total 1344, 93.01% of this label is wrong):
+2021-11-18 19:21:46 INFO         1298 (96.58% of mispredictions) primitive int32_t
+2021-11-18 19:21:46 INFO           46 ( 3.42% of mispredictions) pointer name "PyObject" struct
+2021-11-18 19:21:46 INFO       ground truth (1188 samples, 2.75% of all samples):
+2021-11-18 19:21:46 INFO           name "UBool" primitive int8_t
+2021-11-18 19:21:46 INFO       most common mispredictions (in total 1188, 100.00% of this label is wrong):
+2021-11-18 19:21:46 INFO         1048 (88.22% of mispredictions) primitive int32_t
+2021-11-18 19:21:46 INFO          126 (10.61% of mispredictions) primitive bool
+2021-11-18 19:21:46 INFO           14 ( 1.18% of mispredictions) pointer name "PyObject" struct
+2021-11-18 19:21:46 INFO       ground truth (1187 samples, 2.75% of all samples):
+2021-11-18 19:21:46 INFO           pointer unknown
+2021-11-18 19:21:46 INFO       most common mispredictions (in total 1187, 100.00% of this label is wrong):
+2021-11-18 19:21:46 INFO         1123 (94.61% of mispredictions) primitive int32_t
+2021-11-18 19:21:46 INFO           45 ( 3.79% of mispredictions) pointer name "PyObject" struct
+2021-11-18 19:21:46 INFO           16 ( 1.35% of mispredictions) pointer const primitive char
+2021-11-18 19:21:46 INFO            3 ( 0.25% of mispredictions) pointer primitive char
+2021-11-18 19:21:46 INFO       ground truth (959 samples, 2.22% of all samples):
+2021-11-18 19:21:46 INFO           pointer primitive char
+2021-11-18 19:21:46 INFO       most common mispredictions (in total 959, 100.00% of this label is wrong):
+2021-11-18 19:21:46 INFO          884 (92.18% of mispredictions) primitive int32_t
+2021-11-18 19:21:46 INFO           50 ( 5.21% of mispredictions) pointer const primitive char
+2021-11-18 19:21:46 INFO           22 ( 2.29% of mispredictions) pointer name "PyObject" struct
+2021-11-18 19:21:46 INFO            3 ( 0.31% of mispredictions) pointer name "basic_ostream<char, std::char_traits<char> >" class
+2021-11-20 01:25:52 INFO     reading predictions from 'predictions.model_best.txt'...
+2021-11-20 01:25:52 INFO     predictions:              215865
+2021-11-20 01:25:52 INFO     ground truth samples:      43173
+2021-11-20 01:25:52 INFO     top-k: 5
+2021-11-20 01:25:52 INFO     perfect match accuracy:
+2021-11-20 01:25:52 INFO       top-1: 40.63% (17540/43173)
+2021-11-20 01:25:52 INFO       top-2: 43.18% (18644/43173)
+2021-11-20 01:25:52 INFO       top-3: 45.40% (19599/43173)
+2021-11-20 01:25:52 INFO       top-4: 47.08% (20326/43173)
+2021-11-20 01:25:52 INFO       top-5: 47.25% (20399/43173)
+2021-11-20 01:25:52 INFO     average type prefix score (top-1): 0.4537
+2021-11-20 01:25:52 INFO     average weighted type prefix score (top-1): 0.4886
+2021-11-20 01:25:53 INFO     average type prefix length (top-1): 1.0
+2021-11-20 01:25:53 INFO     average Jaccard metric (top-1): 0.5514
+2021-11-20 01:25:59 INFO     BLEU score (top-1, corpus): 0.5099
+2021-11-20 01:25:59 INFO     most common mispredictions:
+2021-11-20 01:25:59 INFO       ground truth (2736 samples, 6.34% of all samples):
+2021-11-20 01:25:59 INFO           name "sf_count_t" primitive int64_t
+2021-11-20 01:25:59 INFO       most common mispredictions (in total 2736, 100.00% of this label is wrong):
+2021-11-20 01:25:59 INFO         2344 (85.67% of mispredictions) name "off64_t" primitive int64_t
+2021-11-20 01:25:59 INFO          276 (10.09% of mispredictions) name "uint64_t" primitive uint64_t
+2021-11-20 01:25:59 INFO           77 ( 2.81% of mispredictions) name "uint64_t" primitive int64_t
+2021-11-20 01:25:59 INFO           39 ( 1.43% of mispredictions) name "int64_t" primitive int64_t
+2021-11-20 01:25:59 INFO       ground truth (2149 samples, 4.98% of all samples):
+2021-11-20 01:25:59 INFO           name "int32_t" primitive int32_t
+2021-11-20 01:25:59 INFO       most common mispredictions (in total 2149, 100.00% of this label is wrong):
+2021-11-20 01:25:59 INFO         2048 (95.30% of mispredictions) primitive int32_t
+2021-11-20 01:25:59 INFO           46 ( 2.14% of mispredictions) pointer name "PyObject" struct
+2021-11-20 01:25:59 INFO           39 ( 1.81% of mispredictions) primitive bool
+2021-11-20 01:25:59 INFO           14 ( 0.65% of mispredictions) pointer const primitive char
+2021-11-20 01:25:59 INFO            2 ( 0.09% of mispredictions) pointer name "basic_ostream<char, std::char_traits<char> >" class
+2021-11-20 01:25:59 INFO       ground truth (1445 samples, 3.35% of all samples):
+2021-11-20 01:25:59 INFO           pointer const primitive char
+2021-11-20 01:25:59 INFO       most common mispredictions (in total 1344, 93.01% of this label is wrong):
+2021-11-20 01:25:59 INFO         1298 (96.58% of mispredictions) primitive int32_t
+2021-11-20 01:25:59 INFO           46 ( 3.42% of mispredictions) pointer name "PyObject" struct
+2021-11-20 01:25:59 INFO       ground truth (1188 samples, 2.75% of all samples):
+2021-11-20 01:25:59 INFO           name "UBool" primitive int8_t
+2021-11-20 01:25:59 INFO       most common mispredictions (in total 1188, 100.00% of this label is wrong):
+2021-11-20 01:25:59 INFO         1048 (88.22% of mispredictions) primitive int32_t
+2021-11-20 01:25:59 INFO          126 (10.61% of mispredictions) primitive bool
+2021-11-20 01:25:59 INFO           14 ( 1.18% of mispredictions) pointer name "PyObject" struct
+2021-11-20 01:25:59 INFO       ground truth (1187 samples, 2.75% of all samples):
+2021-11-20 01:25:59 INFO           pointer unknown
+2021-11-20 01:25:59 INFO       most common mispredictions (in total 1187, 100.00% of this label is wrong):
+2021-11-20 01:25:59 INFO         1123 (94.61% of mispredictions) primitive int32_t
+2021-11-20 01:25:59 INFO           45 ( 3.79% of mispredictions) pointer name "PyObject" struct
+2021-11-20 01:25:59 INFO           16 ( 1.35% of mispredictions) pointer const primitive char
+2021-11-20 01:25:59 INFO            3 ( 0.25% of mispredictions) pointer primitive char
+2021-11-20 01:25:59 INFO       ground truth (959 samples, 2.22% of all samples):
+2021-11-20 01:25:59 INFO           pointer primitive char
+2021-11-20 01:25:59 INFO       most common mispredictions (in total 959, 100.00% of this label is wrong):
+2021-11-20 01:25:59 INFO          884 (92.18% of mispredictions) primitive int32_t
+2021-11-20 01:25:59 INFO           50 ( 5.21% of mispredictions) pointer const primitive char
+2021-11-20 01:25:59 INFO           22 ( 2.29% of mispredictions) pointer name "PyObject" struct
+2021-11-20 01:25:59 INFO            3 ( 0.31% of mispredictions) pointer name "basic_ostream<char, std::char_traits<char> >" class
