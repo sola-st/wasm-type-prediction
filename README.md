@@ -1,11 +1,10 @@
 # Finding the Dwarf: Recovering Precise Types from WebAssembly Binaries
 
-This is the supplementary material for `SnowWhite`, a type prediction system as described in the paper "Finding the Dwarf: Recovering Precise Types from WebAssembly Binaries" (currently under submission).
+This is the supplementary material for `SnowWhite`, a type prediction system as described in the paper "Finding the Dwarf: Recovering Precise Types from WebAssembly Binaries" (PLDI 2022).
 
 It contains the source code, input dataset, trained models, and final evaluation results to help others understand, replicate, and extend our work.
 Please open an issue in case you have a question or trouble executing the steps below.
 There currently is no Docker image or one-click script to run all the steps below. 
-We are planning to add at least more detailed instructions in the future (or would be happy to accept a PR).
 
 ## Setup and Requirements
 
